@@ -34,6 +34,6 @@ def run_game(game):
         if result:
             successful_attempts += 1
         else:
-            successful_attempts = 0
+            exit()
 
     print(f'Congratulations, {name}!')
